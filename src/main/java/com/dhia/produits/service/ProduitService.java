@@ -4,7 +4,7 @@ import com.dhia.produits.entities.Produit;
 
 import java.util.List;
 
-public interface produitService {
+public interface ProduitService {
     Produit saveProduit(Produit p);
     Produit updateProduit(Produit p);
     void deleteProduit(Produit p);
